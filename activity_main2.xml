@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="560dp"
+        android:layout_height="1173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628"
+        app:srcCompat="@drawable/ttxxt" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="240dp"
+        android:layout_height="198dp"
+        android:text="إذا تمت الخطوة الثانية بنجاح ،  فسيمنحك تطبيقنا معلومات ثابتة عن الكتاب من منصات مختلفة (مثل Amazon و Goodreads و Jarir وغيرها) وبعض الكتب التي يمكنك تنزيلها PDF فيما يتعلق ببرنامج DRM (رقمي)  إدارة الحقوق).  ويمكنك تحديد منصة معينة لعرض معلومات صفحة الويب الخاصة بهذه المنصة عن الكتاب."
+        android:textColor="#070707"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="257dp"
+        android:layout_height="189dp"
+        android:text="if the step two have been success so our app shonld give you statical information about your book from different platforms (e.g Amazon, Goodreads, Jarir etc) and some of the books you can download them as PDF with respect to the software of DRM (Digital Rights Management). And you can select a specific platform to show a web page information of this platform about your book.   "
+        android:textColor="#070707"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="242dp"
+        android:layout_height="99dp"
+        android:text="Scan the book you should aim to the book's title and if a message appear to you that's mean the picture not clear so you should try to take a picture again, or the book not found. "
+        android:textColor="#070707"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="209dp"
+        android:layout_height="101dp"
+        android:text="عمل سكان للكتاب ، يجب ان يركز على عنوان الكتاب وإذا ظهرت لك رسالة فهذا يعني أن الصورة غير واضحة ، لذا يجب أن تحاول التقاط صورة مرة أخرى ، أو لم يتم العثور على الكتاب"
+        android:textColor="#070707"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="491dp"
+        android:layout_height="33dp"
+        android:text="Step three :                                      الخطوة الثالثة: "
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="491dp"
+        android:layout_height="33dp"
+        android:text="Step Two:                                      الخطوة الثانية: "
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="363dp"
+        android:layout_height="51dp"
+        android:text='How to use "About Book" App:'
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="491dp"
+        android:layout_height="33dp"
+        android:text="Step One:                                      الخطوة الأولى: "
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the book's language Arabic or English               تحديد لغة الكتاب العربية الانجليزية "
+        android:textColor="#070707"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
